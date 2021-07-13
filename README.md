@@ -12,6 +12,6 @@ https://gefurs.github.io/Frontend-I/pet-shop/
 
 ##Proyecto CV Batman
 
-https://gefurs.github.io/Frontend-I//
+https://gefurs.github.io/Frontend-I/cv-batman/
 
 

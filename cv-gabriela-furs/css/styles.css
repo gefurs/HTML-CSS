@@ -1,0 +1,71 @@
+/* Estilos generales */
+
+
+/* Index */
+
+.banner-cabecera {
+    background: beige url("../img/trabajo-en-equipo.png") no-repeat scroll center -200px;
+    background-size: cover;
+    height: 460px;
+}
+
+
+/* Header */
+
+.sobre-mi {
+    color: #005677;
+    text-decoration: none;
+    text-align: center;
+    font-size: 50px;
+}
+
+.my-photo {
+    background-color: #005677;
+    border-radius: 100px;
+}
+
+
+/* Sobre Mi */
+
+.logo-batman {
+    background: #E5E5E5;
+    text-align: center;
+}
+
+h1 {
+    background: #C4C4C4;
+    color: #005677;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+h2 {
+    background: #C4C4C4;
+    color: #005677;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.sections {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.personal-data span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.dates span {
+    font-weight: bold;
+}
+
+.footer {
+    background: #005677;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+}

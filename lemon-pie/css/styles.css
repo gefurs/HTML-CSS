@@ -1,0 +1,55 @@
+/* Estilos Generales */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap');
+body {
+    font-family: 'Inter', sans-serif;
+    color: #444444;
+}
+
+
+/* Títulos */
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    font-style: italic;
+}
+
+li {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.banner {
+    background: beige url(../img/lemon_pie_1.svg) no-repeat fixed -200px center;
+    background-size: cover;
+    height: 460px;
+    color: #FFFFFF;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #C4C4C4;
+    text-align: center;
+    font-size: 16px;
+}

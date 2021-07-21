@@ -15,3 +15,8 @@ https://gefurs.github.io/Frontend-I/pet-shop/
 https://gefurs.github.io/Frontend-I/cv-batman/
 
 
+##Proyecto CV Gabriela Furs
+
+https://gefurs.github.io/Frontend-I/cv-gabriela-furs/
+
+

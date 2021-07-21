@@ -1,5 +1,10 @@
 /* Estilos generales */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 
 /* Index */
 
@@ -63,9 +68,22 @@ h2 {
     font-weight: bold;
 }
 
+.studies dd {
+    padding-left: 78px;
+}
+
+.experience dd {
+    padding-left: 70px;
+}
+
 .footer {
     background: #005677;
     color: #FFFFFF;
     text-align: center;
     font-size: 20px;
+}
+
+.icon {
+    color: #ffffff;
+    font-size: 30px;
 }

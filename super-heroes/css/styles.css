@@ -1,0 +1,117 @@
+/* Estilos generales */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header */
+
+.promotions {
+    background-color: #1CD1B0;
+    font-size: 15px;
+    width: 100%;
+    height: 38px;
+    padding: 10px;
+}
+
+.title {
+    background-color: #00669F;
+    font-size: 20px;
+    width: 100%;
+    height: 101px;
+    padding-top: 28px;
+    padding-left: 28px;
+}
+
+
+/* Main */
+
+.container {
+    display: block;
+    text-align: center;
+    margin-bottom: 203px;
+}
+
+.card {
+    width: 300px;
+    display: inline-block;
+    background-color: #F3F3F3;
+    margin: 190px 16px;
+    position: relative;
+}
+
+.card-batman {
+    background: #b9b9b9 url(../img/fondo-batman.svg) no-repeat;
+    background-size: cover;
+    height: 193px;
+    border-radius: 16px 16px 0 0;
+}
+
+.card-harley {
+    background: #b9b9b9 url(../img/fondo-harley-queen.svg) no-repeat;
+    background-size: cover;
+    height: 193px;
+    border-radius: 16px 16px 0 0;
+}
+
+.card-text {
+    padding-top: 119px;
+}
+
+.heart {
+    position: absolute;
+    padding-top: 15.87px;
+    padding-left: 21px;
+    color: #CC2424;
+}
+
+.avatar {
+    text-align: center;
+    width: 119px;
+    border-radius: 50%;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 18px;
+    font-size: 30px;
+}
+
+.paragraph {
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 16px;
+    padding-right: 17px;
+}
+
+.card-button {
+    width: 128.78px;
+    height: 48.52px;
+    margin-top: 52px;
+    margin-left: 85px;
+    padding-top: 15px;
+    background-color: #00669F;
+}
+
+.card-button a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #00669F;
+    color: #ffffff;
+    font-size: 16px;
+    width: 100%;
+    height: 51px;
+    padding: 16px;
+}

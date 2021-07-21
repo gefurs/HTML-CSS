@@ -36,6 +36,16 @@ li {
     font-weight: 500;
     font-style: normal;
     font-size: 16px;
+    padding: 10px;
+}
+
+
+/* Header */
+
+nav ul li {
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .banner {
@@ -43,6 +53,17 @@ li {
     background-size: cover;
     height: 460px;
     color: #FFFFFF;
+}
+
+
+/* Main */
+
+.icon {
+    letter-spacing: 5px;
+}
+
+.merengue {
+    color: #ff9100;
 }
 
 

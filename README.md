@@ -20,3 +20,13 @@ https://gefurs.github.io/Frontend-I/cv-batman/
 https://gefurs.github.io/Frontend-I/cv-gabriela-furs/
 
 
+##Proyecto CV Gabriela Furs
+
+https://gefurs.github.io/Frontend-I/heroes/
+
+
+##Proyecto Pizzería
+
+https://gefurs.github.io/Frontend-I/pizzeria/
+
+

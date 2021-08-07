@@ -5,73 +5,164 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <header>
-        <div>
+        <div class="ofertas">
             <p>Grandes ofertas en comederos</p>
-            <p>Español</p>
-            <p>ARG$</p>
+            <div class="desplegables-ofertas">
+                <div>
+                    <p>Español</p>
+                    <i class="fas fa-chevron-down arrow"></i>
+                </div>
+                <div>
+                    <p>ARG$</p>
+                    <i class="fas fa-chevron-down arrow"></i>
+                </div>
+            </div>
         </div>
-        <div>
-            <a href="">
-                <img src="img/Cat.svg" alt="Cat">
-                <h1>Front<span>>Cat&Dog</span></h1>
-                <img src="img/Dog.svg" alt="Dog">
-            </a>
-            <nav>
-                <ul>
-                    <li><a href="#">Categorías</a></li>
-                    <li><a href="#">Pets</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Contáctanos</a></li>
-                </ul>
-            </nav>
+        <div class="header-nav">
+            <div>
+                <a href="#" class="logo">
+                    <img src="img/Cat.svg" alt="Cat" class="img-logo">
+                    <h1>Front<span class="font-header">Cat&Dog</span></h1>
+                    <img src="img/Dog.svg" alt="Dog" class="img-logo">
+                </a>
+            </div>
+            <div>
+                <a href="#"><i class="fa fa-bars desplegable"></i></a>
+                <nav>
+                    <ul class="navegacion">
+                        <li><a href="#">Categorías</a></li>
+                        <li><a href="#">Pets</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Contáctanos</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <main>
-        <section>
-            <img src="img/bowl-and-pet-daities-on-green-background-1.svg" alt="Imagen bowl">
-            <p>¡Es un placer tenerte aquí!</p>
-            <p>¡Comederos de descuento!</p>
-            <a href="#">COMEDEROS</a>
-        </section>
-        <section>
-            <div>
-                <img src="img/dog-foot.svg" alt="Dog foot">
-                <h2>Productos Destacados</h2>
-                <ul>
-                    <a href="#">
-                        <li>Comederos</li>
-                    </a>
-                    <a href="#">
-                        <li>Accesorios</li>
-                    </a>
-                    <a href="#">
-                        <li>Comidas</li>
-                    </a>
-                </ul>
+        <div class="main-container">
+            <div class="saludo-container">
+                <section class="saludo">
+                    <div class="box-container">
+                        <p class="placer">¡Es un placer tenerte aquí!</p>
+                        <p class="descuento">¡Comederos de descuento!</p>
+                        <a href="#" class="link-comederos">COMEDEROS</a>
+                    </div>
+                </section>
             </div>
-            <div>
-                <img src="img/churrasquito.svg" alt="Imagen churrasquito">
-                <p>Juguete Churrasquito</p>
-                <p>$150</p>
-            </div>
-            <div>
-                <img src="img/comedero.svg" alt="Imagen comedero">
-                <p>Comedero para perro</p>
-                <p>$250</p>
-            </div>
-            <div>
-                <img src="img/Huesito.svg" alt="Imagen huesito">
-                <p>Juguete Huesito</p>
-                <p>$650</p>
-            </div>
-        </section>
+            <section>
+                <div class="destacados">
+                    <img src="img/dog-foot.svg" class="dog-foot" alt="Dog foot">
+                    <h2 class="destacados-title">Productos Destacados</h2>
+                    <ul class="destacados-nav">
+                        <a href="#">
+                            <li>Comederos</li>
+                        </a>
+                        <i class="fas fa-window-minimize guion"></i>
+                        <a href="#">
+                            <li>Accesorios</li>
+                        </a>
+                        <i class="fas fa-window-minimize guion"></i>
+                        <a href="#">
+                            <li>Comidas</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="destacados-cards">
+                    <div>
+                        <img src="img/churrasquito.svg" alt="Imagen churrasquito">
+                        <p class="card-text">Juguete Churrasquito</p>
+                        <p class="card-price">$150</p>
+                    </div>
+                    <div>
+                        <img src="img/comedero.svg" alt="Imagen comedero">
+                        <p class="card-text">Comedero para perro</p>
+                        <p class="card-price">$250</p>
+                    </div>
+                    <div>
+                        <img src="img/Huesito.svg" alt="Imagen huesito">
+                        <p class="card-text">Juguete Huesito</p>
+                        <p class="card-price">$650</p>
+                    </div>
+                </div>
+            </section>
+            <section class="formulario-container">
+                <form action="js" method="POST" class="formulario">
+                    <fieldset class="formulario-inputs">
+                        <legend>Contáctanos</legend>
+                        <div>
+                            <label for="nombre">Nombre y Apellido</label>
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Ingresa tu correo electrónico">
+                        </div>
+                        <div>
+                            <label for="telefono">Teléfomo</label>
+                            <input type="tel" name="telefono" id="telefono" placeholder="Teléfono">
+                        </div>
+                    </fieldset>
+                    <div class="formulario-buttons">
+                        <input type="reset" value="Resetear" class="resetear">
+                        <input type="submit" value="Enviar" class="enviar">
+                    </div>
+                </form>
+            </section>
+        </div>
     </main>
     <footer>
-        <p align="center">Todos los derechos reservados Front End</p>
+        <div class="footer">
+            <div class="footer-suscribe">
+                <i class="far fa-envelope subscribe"></i>
+                <h3>Suscríbete para más novedades</h3>
+            </div>
+            <div>
+                <!-- formulario -->
+            </div>
+        </div>
+        <div class="footer-contacto">
+            <div>
+                <div class="contacto">
+                    <i class="fas fa-map-marker-alt footer-icon"></i>
+                    <div>
+                        <h3>Localidad</h3>
+                        <p>Calle-Provincia</p>
+                    </div>
+                </div>
+                <div class="contacto">
+                    <i class="fas fa-phone-alt footer-icon"></i>
+                    <div>
+                        <h3>Localidad</h3>
+                        <p>Calle-Provincia</p>
+                    </div>
+                </div>
+                <div class="contacto">
+                    <i class="far fa-envelope footer-icon"></i>
+                    <div>
+                        <h3>Localidad</h3>
+                        <p>Calle-Provincia</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a href="#" class="footer-logo">
+                    <img src="img/Cat.svg" alt="Cat" class="img-logo">
+                    <h3><span class="font-footer">Front</span><span class="catdog-footer">Cat&Dog</span></h3>
+                    <img src="img/Dog.svg" alt="Dog" class="img-logo">
+                </a>
+            </div>
+        </div>
+        <div class="derechos">
+            <p>Todos los derechos reservados Front End</p>
+        </div>
+
     </footer>
 
 </body>

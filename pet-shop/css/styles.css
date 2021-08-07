@@ -1,0 +1,351 @@
+/* Estilos generales */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #3C2313;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/* Header */
+
+.ofertas {
+    max-width: 100%;
+    background-color: #222222;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.5rem 5rem 0.5rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desplegables-ofertas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.desplegables-ofertas>div {
+    padding: 4px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow {
+    padding: 3px 5px;
+}
+
+.header-nav {
+    max-width: 100%;
+    padding: 3rem 4rem;
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.font-header {
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.navegacion {
+    display: flex;
+    gap: 2rem;
+}
+
+.navegacion>li>a::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f1b0";
+    color: #ffffff;
+    font-size: 1rem;
+    margin-right: 0.2rem;
+}
+
+.desplegable {
+    width: 10px;
+    display: none;
+}
+
+
+/* Main */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.saludo-container {
+    background-color: #f5deb3;
+    background-image: url("../img/bowl-and-pet-daities-on-green-background-1.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 45rem;
+}
+
+.saludo {
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    width: 50%;
+}
+
+.box-container {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.placer {
+    width: 36.5rem;
+    height: 5.4rem;
+    border-radius: 5px;
+    font-size: 3rem;
+    padding-top: 0.9rem;
+    text-align: center;
+    background-color: #ffffff;
+    color: #3C2313;
+}
+
+.descuento {
+    padding: 1.2rem;
+    font-size: 1.6rem;
+    color: #3C2313;
+}
+
+.link-comederos {
+    padding: 1.5rem 2.3rem;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    background-color: #F0A83E;
+}
+
+.destacados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dog-foot {
+    margin-top: 2.4rem;
+    width: 6.7rem;
+    height: 7.1rem;
+}
+
+.destacados-title {
+    font-size: 4rem;
+    color: #3C2313;
+}
+
+.destacados-nav {
+    margin-top: 2rem;
+    color: #666666;
+    display: flex;
+    justify-content: space-between;
+}
+
+.guion {
+    padding-top: 0.2rem;
+    color: #666666;
+}
+
+.destacados-nav>a {
+    color: #666666;
+    font-size: 1.6rem;
+}
+
+.destacados-cards {
+    padding: 4.9rem 12rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #3C2313;
+}
+
+.card-price {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #F0A83E;
+}
+
+
+/* Formulario de contacto */
+
+.formulario-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+    width: 80%;
+    /* padding: 7.8rem 4.2rem 8.2rem; */
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-inputs {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.formulario-inputs legend {
+    margin: 0 auto;
+    padding: 7.8rem 0 2rem 0;
+    color: #3C2313;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.formulario-inputs label {
+    display: none;
+}
+
+input {
+    background-color: #3C2313;
+    border-color: #3C2313;
+    border-radius: 20px;
+    width: 34rem;
+    padding: 1.4rem 0 1.4rem 1.4rem;
+}
+
+input::placeholder {
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.formulario-buttons {
+    padding: 4.1rem 0 8.2rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.formulario-buttons input {
+    width: 10rem;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.resetear {
+    background-color: #8A8787;
+    border-color: #8A8787;
+    padding: 0.8rem 1.8rem;
+}
+
+.enviar {
+    background-color: #F0A83E;
+    border-color: #F0A83E;
+    padding: 0.8rem 2.5rem;
+}
+
+
+/* Footer */
+
+.footer {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: #F0A83E;
+}
+
+.footer-subscribe {
+    display: flex;
+}
+
+.subscribe {
+    color: #fff;
+}
+
+.footer-contacto {
+    color: #fff;
+    background-color: #3C2313;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacto {
+    display: flex;
+}
+
+.footer-icon {
+    background-color: #8A8787;
+    border-radius: 50px;
+    border-width: 10px;
+    border-color: #786960;
+    font-size: 3rem;
+}
+
+.contacto h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.contacto p {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.derechos {
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    background-color: #222222;
+}
+
+
+/* Responsive */
+
+
+/* @media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 480px) {
+    .desplegable {
+        color: #ffffff;
+        padding: 4rem 2rem;
+        display: block;
+    }
+    .navegacion {
+        width: none;
+    }
+} */

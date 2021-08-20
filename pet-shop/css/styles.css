@@ -23,6 +23,7 @@ ul {
 }
 
 a {
+    font-size: 1.3rem;
     text-decoration: none;
     color: #ffffff;
 }
@@ -84,7 +85,7 @@ a {
     font-weight: 900;
     content: "\f1b0";
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-right: 0.2rem;
 }
 
@@ -171,7 +172,7 @@ a {
     margin-top: 2rem;
     color: #666666;
     display: flex;
-    justify-content: space-between;
+    gap: 0.7rem;
 }
 
 .guion {
@@ -214,7 +215,6 @@ a {
 
 .formulario {
     width: 80%;
-    /* padding: 7.8rem 4.2rem 8.2rem; */
     display: flex;
     flex-direction: column;
 }
@@ -269,13 +269,13 @@ input::placeholder {
 
 .resetear {
     background-color: #8A8787;
-    border-color: #8A8787;
+    border: none;
     padding: 0.8rem 1.8rem;
 }
 
 .enviar {
     background-color: #F0A83E;
-    border-color: #F0A83E;
+    border: none;
     padding: 0.8rem 2.5rem;
 }
 
@@ -285,27 +285,86 @@ input::placeholder {
 .footer {
     font-size: 2rem;
     font-weight: 700;
+    padding: 1.8rem 0;
     color: #fff;
     background-color: #F0A83E;
-}
-
-.footer-subscribe {
-    display: flex;
-}
-
-.subscribe {
-    color: #fff;
-}
-
-.footer-contacto {
-    color: #fff;
-    background-color: #3C2313;
     display: flex;
     justify-content: space-between;
 }
 
-.contacto {
+.footer-suscribe {
+    width: 50%;
+    padding-left: 2.4rem;
+    font-weight: 400;
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-suscripcion {
+    width: 50%;
+    padding-right: 2rem;
+}
+
+.suscripcion {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+}
+
+.suscripcion div label {
+    display: none;
+}
+
+.suscripcion div input {
+    border-radius: 20px;
+}
+
+.suscripcion-input {
+    background-color: #fff;
+    border: none;
+    width: 27rem;
+    padding: 1.4rem 0 1.4rem 0;
+}
+
+.suscripcion-input::placeholder {
+    padding-left: 1rem;
+    color: #A0A0A0;
+    font-size: 0.9rem;
+}
+
+.suscripcion-button {
+    background-color: #3C2313;
+    border: none;
+    width: 10rem;
+    padding: 1.4rem 0 1.4rem 0;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.footer-contacto {
+    background-color: #3C2313;
+    border: none;
+    color: #fff;
+    display: flex;
+}
+
+.footer-contacto-iconos {
+    padding: 2rem 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contacto {
+    padding-left: 7.4rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 .footer-icon {
@@ -326,8 +385,29 @@ input::placeholder {
     font-weight: 700;
 }
 
+.footer-contacto-logo {
+    width: 50%;
+    padding-right: 7rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-logo {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.font-footer {
+    font-weight: 700;
+    color: #F0A83E;
+}
+
 .derechos {
     font-size: 1rem;
+    font-weight: 700;
+    padding: 0.4rem 0;
     text-align: center;
     color: #fff;
     background-color: #222222;
@@ -336,16 +416,65 @@ input::placeholder {
 
 /* Responsive */
 
-
-/* @media screen and (max-width: 768px) {}
-
 @media screen and (max-width: 480px) {
+    .ofertas {
+        display: none;
+    }
+    .navegacion {
+        display: none;
+    }
+    .header-nav {
+        align-items: center;
+    }
     .desplegable {
         color: #ffffff;
         padding: 4rem 2rem;
         display: block;
     }
-    .navegacion {
-        width: none;
+    .saludo-container {
+        background-position: center left;
     }
-} */
+    .saludo {
+        position: relative;
+        left: 0%;
+        width: 100%;
+    }
+    .destacados-title {
+        text-align: center;
+    }
+    .destacados-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .formulario {
+        width: 100%;
+        align-items: center;
+    }
+    .formulario-buttons input {
+        width: 100%;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .footer-suscribe {
+        width: 100%;
+    }
+    .footer-suscripcion {
+        width: 100%;
+    }
+    .suscripcion {
+        width: 100%;
+    }
+    .suscripcion-input {
+        width: 100%;
+    }
+    .footer-contacto {
+        flex-direction: column;
+    }
+    .footer-contacto-logo {
+        width: 100%;
+        justify-content: center;
+        order: -1;
+    }
+}

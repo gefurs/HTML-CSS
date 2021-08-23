@@ -105,7 +105,7 @@ a {
 
 .saludo-container {
     background-color: #f5deb3;
-    background-image: url("../img/bowl-and-pet-daities-on-green-background-1.svg");
+    background-image: url("../img/bowl.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -149,6 +149,11 @@ a {
     border-radius: 5px;
     font-size: 1.6rem;
     background-color: #F0A83E;
+    transition: all 1s;
+}
+
+.link-comederos:hover {
+    transform: scale(1.1);
 }
 
 .destacados {
@@ -271,12 +276,22 @@ input::placeholder {
     background-color: #8A8787;
     border: none;
     padding: 0.8rem 1.8rem;
+    transition: all 1s;
+}
+
+.resetear:hover {
+    transform: scale(1.1);
 }
 
 .enviar {
     background-color: #F0A83E;
     border: none;
     padding: 0.8rem 2.5rem;
+    transition: all 1s;
+}
+
+.enviar:hover {
+    transform: scale(1.1);
 }
 
 
@@ -343,6 +358,11 @@ input::placeholder {
     color: #fff;
     font-size: 1.2rem;
     font-weight: 600;
+    transition: all 1s;
+}
+
+.suscripcion-button:hover {
+    transform: scale(1.1);
 }
 
 .footer-contacto {

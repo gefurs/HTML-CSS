@@ -276,22 +276,24 @@ input::placeholder {
     background-color: #8A8787;
     border: none;
     padding: 0.8rem 1.8rem;
-    transition: all 1s;
+    transition: transform 0.5s;
 }
 
 .resetear:hover {
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .enviar {
     background-color: #F0A83E;
     border: none;
     padding: 0.8rem 2.5rem;
-    transition: all 1s;
+    transition: transform 0.5s;
 }
 
 .enviar:hover {
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 
@@ -358,11 +360,12 @@ input::placeholder {
     color: #fff;
     font-size: 1.2rem;
     font-weight: 600;
-    transition: all 1s;
+    transition: transform 0.5s;
 }
 
 .suscripcion-button:hover {
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .footer-contacto {

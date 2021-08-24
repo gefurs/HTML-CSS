@@ -46,10 +46,16 @@ nav ul li {
     display: inline-block;
     text-decoration: none;
     list-style-type: none;
+    transition: color 0.5s;
+}
+
+nav ul li:hover {
+    color: #ff9100;
+    cursor: pointer;
 }
 
 .banner {
-    background: beige url(../img/lemon_pie_1.svg) no-repeat fixed -200px center;
+    background: beige url(../img/lemon-pie.jpg) no-repeat fixed -200px center;
     background-size: cover;
     height: 460px;
     color: #FFFFFF;

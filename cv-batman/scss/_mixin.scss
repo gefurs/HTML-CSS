@@ -1,0 +1,23 @@
+@mixin titles ($width, $height, $size, $color, $bg-color, $padding, $ttransform, $letter-spacing) {
+    width: $width;
+    height: $height;
+    font-size: $size;
+    color: $color;
+    background-color: $bg-color;
+    padding: $padding;
+    text-transform: $ttransform;
+    letter-spacing: $letter-spacing;
+}
+
+@mixin info ($padding, $size, $flex, $direction, $gap) {
+    padding: $padding;
+    font-size: $size;
+    display: $flex;
+    flex-direction: $direction;
+    gap: $gap;
+}
+
+@mixin span ($style, $weitht) {
+    font-style: $style;
+    font-weight: $weitht;
+}

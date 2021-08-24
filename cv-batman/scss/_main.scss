@@ -1,0 +1,17 @@
+main {
+    .sections {
+        margin-top: 133px;
+        h2 {
+            @include titles (100%, 30px, 20px, $color-terciario, $color-secundario, 5px 0 5px 12px, uppercase, 5px);
+        }
+        .personal-data {
+            @include info (18px 0 30px 30px, 15px, flex, column, 10px);
+            span {
+                @include span (italic, bold);
+            }
+        }
+        .data {
+            @extend %data;
+        }
+    }
+}

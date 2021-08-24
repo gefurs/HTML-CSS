@@ -1,0 +1,10 @@
+header {
+    .logo-batman {
+        text-align: center;
+        padding: 21px 0;
+    }
+    h1 {
+        text-align: center;
+        @include titles (100%, 60px, 35px, $color-terciario, $color-secundario, 15px 0, uppercase, 5px);
+    }
+}

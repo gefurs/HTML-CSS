@@ -1,6 +1,8 @@
 main {
+    margin-top: 30px;
     .sections {
-        margin-top: 133px;
+        margin: 0 auto;
+        width: 70%;
         h2 {
             @include titles (100%, 30px, 20px, $color-terciario, $color-secundario, 5px 0 5px 12px, uppercase, 5px);
         }

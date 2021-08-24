@@ -40,6 +40,10 @@ img {
   max-width: 100%;
 }
 
+header {
+  background-color: #E5E5E5;
+}
+
 header .logo-batman {
   text-align: center;
   padding: 21px 0;
@@ -57,8 +61,13 @@ header h1 {
   letter-spacing: 5px;
 }
 
+main {
+  margin-top: 30px;
+}
+
 main .sections {
-  margin-top: 133px;
+  margin: 0 auto;
+  width: 70%;
 }
 
 main .sections h2 {

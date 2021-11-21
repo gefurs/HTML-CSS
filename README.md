@@ -1,32 +1,32 @@
-# Frontend-I
+# Frontend I - CTD 2021
 
-##Proyecto Lemon Pie
+#### Este repositorio contiene los proyectos desarrollados en la cursada de la materia **Frontend I**, en la carrera **Certified Tech Developer** en el año **2021**.
+
+:heavy_check_mark: Proyecto Lemon Pie
 
 https://gefurs.github.io/Frontend-I/lemon-pie/
 
 
-##Proyecto Pet Shop
+:heavy_check_mark: Proyecto Pet Shop
 
 https://gefurs.github.io/Frontend-I/pet-shop/
 
 
-##Proyecto CV Batman
+:heavy_check_mark: Proyecto CV Batman
 
 https://gefurs.github.io/Frontend-I/cv-batman/
 
 
-##Proyecto CV Gabriela Furs
+:heavy_check_mark: Proyecto CV Gabriela Furs
 
 https://gefurs.github.io/Frontend-I/cv-gabriela-furs/
 
 
-##Proyecto CV Gabriela Furs
+:heavy_check_mark: Proyecto Héroes
 
 https://gefurs.github.io/Frontend-I/heroes/
 
 
-##Proyecto Pizzería
+:heavy_check_mark: Proyecto Pizzería
 
 https://gefurs.github.io/Frontend-I/pizzeria/
-
-

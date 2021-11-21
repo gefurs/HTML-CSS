@@ -1,0 +1,164 @@
+main {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto auto;
+    .portada-container {
+        grid-column: 1/2;
+        background-color: $bg-buscador;
+        padding: 4rem 0 4rem 10.9rem;
+        margin-bottom: 11rem;
+        .personas {
+            padding-left: 1.5rem;
+            width: 60rem;
+            height: 10rem;
+            border: 0.1rem solid $color-titulos-prim;
+            background-color: #fff;
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: auto;
+            align-items: center;
+            img {
+                max-width: 100%;
+                border-radius: 50%;
+                width: 6rem;
+                height: 6rem;
+            }
+        }
+    }
+    .portada {
+        padding-top: 4rem;
+        width: 60rem;
+        height: 72rem;
+        display: flex;
+        flex-direction: column;
+        .encabezado-portada {
+            height: 6.7rem;
+            background-color: #fff;
+            border: 0.1rem solid $color-titulos-prim;
+            display: flex;
+            justify-content: space-between;
+            .img {
+                padding: 0.9rem 0 0.9rem 0.9rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 0.9rem;
+                img {
+                    max-width: 100%;
+                    border-radius: 50%;
+                    width: 5rem;
+                    height: 5rem;
+                }
+            }
+            .puntos-suspensivos {
+                display: flex;
+                align-items: center;
+                padding-right: 0.9rem;
+                i {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        .foto-portada {
+            height: 65.3rem;
+            background-color: #fff;
+            border: 0.1rem solid $color-titulos-prim;
+            padding: 2rem 5.6rem 02.3rem 5.6rem;
+            display: flex;
+            flex-direction: column;
+            .emojis {
+                font-size: 2.40rem;
+                display: flex;
+                gap: 1.8rem;
+                margin: 1.1rem 0;
+            }
+            .redes {
+                font-weight: 400;
+                color: #000;
+                font-size: 1rem;
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                .net-info {
+                    font-size: 1rem;
+                    color: #A49B9B;
+                }
+            }
+        }
+    }
+}
+
+.perfiles {
+    grid-column: 2/3;
+    background-color: $bg-buscador;
+    padding: 4rem 11.1rem 4rem 10.9rem;
+    display: flex;
+    flex-direction: column;
+    .perfil {
+        padding: 2rem 0 3.4rem 0;
+        display: flex;
+        justify-content: space-between;
+        .perfil-info {
+            display: flex;
+            gap: 1.3rem;
+            img {
+                max-width: 100%;
+                border-radius: 50%;
+                width: 5rem;
+                height: 5rem
+            }
+            >div {
+                padding-top: 2rem;
+                flex-direction: column;
+                display: flex;
+                gap: 0.4rem;
+                .perfil-emoji {
+                    display: flex;
+                    font-size: 1rem;
+                    text-transform: uppercase;
+                    letter-spacing: 5px;
+                    color: $color-titulos-prim;
+                    img {
+                        width: 1rem;
+                        height: 1rem;
+                    }
+                }
+            }
+        }
+        .perfil-anchor {
+            margin: auto 0 auto 8.5rem;
+            a {
+                font-weight: 500;
+            }
+        }
+    }
+    .sugerencias {
+        display: grid;
+        grid-template-columns: 11% 75% 14%;
+        grid-template-rows: auto auto;
+        gap: 1rem;
+        h3 {
+            grid-column: 1/4;
+            color: $color-titulos-prim;
+        }
+        img {
+            grid-column: 1/2;
+            max-width: 100%;
+            border-radius: 50%;
+            width: 3rem;
+            height: 3rem;
+        }
+        p {
+            grid-column: 2/3;
+            position: relative;
+            align-self: center;
+            left: -1.2rem;
+        }
+        a {
+            grid-column: 3/4;
+            position: relative;
+            align-self: center;
+            right: 1.8rem;
+        }
+    }
+}

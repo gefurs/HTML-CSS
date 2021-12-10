@@ -17,11 +17,6 @@ https://gefurs.github.io/Frontend-I/pet-shop/
 https://gefurs.github.io/Frontend-I/cv-batman/
 
 
-:heavy_check_mark: Proyecto CV Gabriela Furs
-
-https://gefurs.github.io/Frontend-I/cv-gabriela-furs/
-
-
 :heavy_check_mark: Proyecto Héroes
 
 https://gefurs.github.io/Frontend-I/heroes/
